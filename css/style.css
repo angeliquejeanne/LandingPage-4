@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Simonetta&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+img 
+{
+  width: 100%;
+}
+section 
+{
+  background: whitesmoke;
+  font-size: 20px;
+  line-height: 22px;
+  min-height: 100vh;
+}
+.border-fixed 
+{
+  position: fixed;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  border: 5px solid Black;
+  z-index: 90;
+  pointer-events:none;
+}
+.content 
+{
+  z-index: 100;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+h1.first
+{
+  font-size: 38px;
+  color: Black;
+  font-weight: 400;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+h1.second
+{
+  font-size: 38px;
+  color: Black;
+  font-weight:bolder;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+h2 
+{
+  font-size: 45px;
+  color: Black;
+  line-height: 35px;
+  margin-top: 15%;
+  margin-left: 5%;
+}
+h6
+{
+  margin: auto;
+  font-weight: bold;
+}
+p 
+{
+  padding: 20px 0;
+  color: Black;
+}
+#button
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.button
+{
+  width: 180px;
+  height: 45px;
+}
+a.button 
+{
+  background: black;
+  padding: 10px;
+  margin: 0;
+  border-radius: 15px;
+  color: white;
+  font-family: "Raleway";
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 18px;
+  display: block;
+  text-align: center;
+  text-underline: none;
+  position: relative;
+  transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+a.button:hover 
+{
+  top: 2px;
+  text-decoration: none;
+  background: lightgray;
+  color: black;
+  transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+.picture 
+{
+  margin: 0!important;
+  padding: 0!important;
+  background: url("../img/001\ violet.jpg")no-repeat top left;
+  background-attachment: fixed;
+  background-size: contain;
+  min-height: 100vh;
+  position: relative;
+}
+.max-width 
+{
+  width: 90%;
+  margin: 0 auto;
+}
+.social-links
+{
+    padding-top: 125px;
+}
+.social-links a
+{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+.social-links a:hover
+{
+  background-color: lightgray;
+  color: black;
+}
+.social-links a .fa
+{
+    color: white;
+    font-size: 12px;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+.social-links a:hover .fa
+{
+    color: black;
+}
+@media (max-width: 967px) 
+{
+  .picture
+  {
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+  }
+  h1 
+  {
+    margin: 30px 10px 15px 10px;
+    font-size: 34px;
+  }
+  .max-width 
+  {
+    margin: 15px auto;
+  }
+  #button
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .picture
+  {
+    width: 100px;
+  }
+  .social-links
+{
+    padding-bottom: 45px;
+    padding-left: 25px;
+}
+}
+@media (max-width: 767px) 
+{
+  .picture
+  {
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+  }
+  h1 
+  {
+    margin: 30px 10px 15px 10px;
+    font-size: 34px;
+  }
+  .max-width 
+  {
+    margin: 15px auto;
+  }
+  #button
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .button
+  {
+    width: 100px;
+  }
+  .social-links
+{
+    padding-bottom: 35px;
+    padding-left: 25px;
+}
+}
