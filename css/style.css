@@ -184,7 +184,7 @@ a.button:hover
     padding-left: 25px;
 }
 }
-@media (max-width: 767px) 
+@media (max-width: 768px) 
 {
   .picture
   {
@@ -196,7 +196,9 @@ a.button:hover
   h1 
   {
     margin: 30px 10px 15px 10px;
-    font-size: 34px;
+  }
+  .first, .second {
+    font-size:28px;
   }
   .max-width 
   {
