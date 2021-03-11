@@ -214,6 +214,7 @@ a.button:hover
   }
   .social-links
 {
+    padding-top:45px;
     padding-bottom: 35px;
     padding-left: 25px;
 }
